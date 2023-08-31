@@ -1,0 +1,14 @@
+h2{
+background-color: lightblue;
+color: darkblue;
+
+}
+
+.a{
+    color: blue;
+}
+
+div ~ p{
+color: red;
+
+}
