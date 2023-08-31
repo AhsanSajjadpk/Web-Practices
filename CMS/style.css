@@ -1,0 +1,70 @@
+h2{
+    color: white;
+    padding: 5px 15px;
+    margin-left: 0px;
+    background-color: rgb(12, 12, 58);
+}
+
+.abc{
+
+width: 450px;
+height: 150px;
+border-width: 3px;
+/* border-radius: 15px; */
+/* border-style: solid; */
+/* border-color: black; */
+
+}
+
+#a{
+    background-color: blue;
+    margin-left: 11%;
+    margin-top: 2%;
+}
+#b{
+    background-color: rgb(47, 109, 6);
+    margin-left: 55%;
+    margin-top: -170px;
+    /* margin-right: 20%; */
+}
+#c{
+    margin-left: 11%;
+    margin-top: -5px;
+    background-color: rgb(65, 65, 65);
+}
+#d{
+    margin-left: 55%;
+    margin-top: -170px;
+    background-color: navy;
+
+}
+#e{
+    margin-left: 11%;
+    margin-top: 10px;
+    background-color: rgb(88, 193, 235);
+}
+
+
+h1{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: lighter;
+    font-size: 35px;
+    font-style: oblique;
+    color: white;
+}
+button{
+    margin-left: 40%;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 4px;
+    /* border-color: red; */
+    /* border-width: 5px; */
+    border-style: none;
+    
+    
+}
+button:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
