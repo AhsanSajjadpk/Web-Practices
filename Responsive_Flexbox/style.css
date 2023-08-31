@@ -1,0 +1,39 @@
+.main-container{
+width: 94%;
+height: 600px;
+border:  2px solid black;
+padding: 0px 20px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+
+
+}
+
+.sub-container{
+    /* flex: 1 1 300px ; */
+    width: 45%;
+height: 550px;
+border:  2px solid red;
+}
+
+@media (max-width: 700px){
+    .main-container{
+        width: 84%;
+        height: auto;
+        border:  2px solid black;
+        margin: auto;
+    
+        }
+        
+
+    .sub-container{
+        
+        width: 90%;
+    height: 350px;
+    border:  2px solid blue;
+    margin: 15px auto;
+    }
+}
