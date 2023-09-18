@@ -1,0 +1,32 @@
+#sec1{
+    display: flex;
+}
+
+input {
+border-radius: 5px;
+width: 35%;
+text-align: center;
+border-style: none;
+color: rgb(0, 0, 0);
+
+}
+button{
+    border: none;
+border-radius: 5px;
+background-color: rgb(255, 255, 255);
+color: black;
+}
+button:hover{
+
+    color: rgb(244, 255, 255);
+    background-color: black;
+}
+*{
+
+    background-color: rgb(255, 231, 231);
+}
+iframe{
+width: 31%;
+margin: 10px;
+
+}
