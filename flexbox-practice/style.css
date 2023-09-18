@@ -1,0 +1,58 @@
+.child1{
+height: 300px;
+width: 20%;
+background-color: red;
+color: white;
+/* overflow: scroll; */
+
+padding: 0px 25px;
+
+}
+body{
+    background-color: black;
+}
+.cont{
+
+display: flex;
+justify-content: flex-end;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+
+.hea{
+    text-align: center;
+}
+
+
+@media (max-width: 855px){
+
+    .child1{
+width: 90%;
+margin: 20px auto;
+height: auto;
+
+
+
+
+
+    }
+
+
+        
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+    
