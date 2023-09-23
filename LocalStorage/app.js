@@ -17,15 +17,16 @@ function signup() {
 }
 
 function signin() {
-    alert("Sign in function ka andar ha")
+    // alert("Sign in function ka andar ha")
     var email = document.getElementById('mail').value
     var pass = document.getElementById('pass').value
-    alert("down")
+    // alert("down")
     if (localStorage.getItem('Email') == email && localStorage.getItem('Password') == pass) {
         
-        alert("Welcome")
-       location.href="./index.html"
-        alert("After inde fileWelcome")
+        // alert("Welcome")
+        window.open('index.html', '_blank');
+    //    location.href="./index.html"
+        // alert("After inde fileWelcome")
 
     }
     else {
